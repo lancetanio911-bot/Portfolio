@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { Stats } from "@/components/Stats";
 import { About } from "@/components/About";
+import { Testimonials } from "@/components/Testimonials";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Experience } from "@/components/Experience";
@@ -37,7 +39,9 @@ export default function HomePage() {
       <Navbar />
       <main className="overflow-x-clip">
         <Hero />
+        <Stats />
         <About />
+        <Testimonials />
         <Skills />
         <Projects />
         <Experience />
